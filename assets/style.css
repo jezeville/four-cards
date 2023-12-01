@@ -1,0 +1,85 @@
+body {
+  font-size: 15px;
+  font-family: "Poppins";
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+}
+
+header {
+  text-align: center;
+  width: 450px;
+  margin: auto;
+}
+header h1 {
+  margin: 0;
+  font-weight: 400;
+}
+header h2 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 200;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.taille--boite {
+  width: 350px;
+  height: 220px;
+  margin: 15px;
+  box-shadow: -1px 4px 15px 3px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+.taille--boite svg {
+  float: right;
+}
+
+.flexbox__boite1 {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.central__boite2 {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.central__boite3 {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.flexbox__boite4 {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 375px) {
+  header {
+    width: 350px;
+  }
+  header h1 {
+    font-size: 1.5em;
+  }
+  header h2 {
+    font-size: 1.5em;
+  }
+  header p {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .flexbox {
+    margin-top: 90px;
+    flex-direction: column;
+  }
+  .taille--boite {
+    width: 275px;
+  }
+}/*# sourceMappingURL=style.css.map */
